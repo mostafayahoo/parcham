@@ -48,7 +48,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION \
 #
 
 >┌─[alfa@parrot]─[~/Downloads/parcham/3/squashfs-root]\
-└──╼ $sudo mount zero.img "/" mnt\
+└──╼ $sudo mount zero.img "/mnt\
 [sudo] password for alfa: \
 ┌─[alfa@parrot]─[~/Downloads/parcham/3/squashfs-root]\
 └──╼ $
