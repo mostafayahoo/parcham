@@ -14,7 +14,7 @@ bamanbekhan: data
 #
 
 >┌─[alfa@parrot]─[~/Downloads/parcham/3]\
-└──╼ $unsquashfs ./extract.squashfs\ 
+└──╼ $unsquashfs ./extract.squashfs\
 Parallel unsquashfs: Using 4 processors
 1 inodes (128 blocks) to write
 [===============================================================|] 128/128 100%
@@ -40,15 +40,15 @@ zero.img: data
 └──╼ $binwalk zero.img \
 DECIMAL       HEXADECIMAL     DESCRIPTION \
 *------------------------------------------------------------------------------*\
-90969         0x16359         Copyright string: "copyright/trademark/acute/dieresis/.notdef/AE/Oslash"
-126311        0x1ED67         Copyright string: "copyright/trademark/acute/dieresis/.notdef/AE/Oslash"
-156981        0x26535         Copyright string: "copyright 16#00a9"
-157000        0x26548         Copyright string: "copyrightsans 16#f8e9"
+90969         0x16359         Copyright string: "copyright/trademark/acute/dieresis/.notdef/AE/Oslash"\
+126311        0x1ED67         Copyright string: "copyright/trademark/acute/dieresis/.notdef/AE/Oslash"\
+156981        0x26535         Copyright string: "copyright 16#00a9"\
+157000        0x26548         Copyright string: "copyrightsans 16#f8e9"\
 157023        0x2655F         Copyright string: "copyrightserif 16#f6d9"
 #
 
 >┌─[alfa@parrot]─[~/Downloads/parcham/3/squashfs-root]\
-└──╼ $sudo mount zero.img "/mnt\
+└──╼ $sudo mount zero.img \/mnt\
 [sudo] password for alfa: \
 ┌─[alfa@parrot]─[~/Downloads/parcham/3/squashfs-root]\
 └──╼ $
