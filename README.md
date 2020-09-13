@@ -26,7 +26,7 @@ created 0 fifos
 #
 
 >┌─[alfa@parrot]─[~/Downloads/parcham/3]\
-└──╼ $cd squashfs-root/
+└──╼ $cd squashfs-root\
 ┌─[alfa@parrot]─[~/Downloads/parcham/3/squashfs-root]\
 └──╼ $ls\
 zero.img
